@@ -2,6 +2,7 @@ from scripts.helpful_scripts import get_account
 from brownie import interface, config, network, accounts
 import sys
 
+# weth is an erc20 version of eth, which means we can interact with other erc20 tokens
 
 def main():
     get_weth()
